@@ -21,3 +21,8 @@ print(text_string[-12])
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string.index("I"))
 
+
+# Exercise nr.5
+# Insert the correct method in order to return the number of occurrences of the letter e in the string.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.count("e"))
