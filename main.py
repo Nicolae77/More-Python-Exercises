@@ -8,3 +8,9 @@ print(text_string[-1])
 # Using positive index return exclamation mark from the string.
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string[5])
+
+
+# Exercise nr.3
+# Using negative index return the d character from the string.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string[-10])
