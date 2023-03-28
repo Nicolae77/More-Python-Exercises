@@ -45,3 +45,15 @@ print(text_string.find("My"))
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string.startswith("N")) # return False
 print(text_string.startswith("H")) # return True
+
+
+# Exercise nr.9
+# Insert the correct method in order to convert all uppercase letters to lowercase and all lowercase letters to uppercase.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.swapcase())
+
+
+# Exercise nr.10
+# Insert the correct method in order to remove all spaces.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.replace(" ",""))
