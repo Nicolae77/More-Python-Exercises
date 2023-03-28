@@ -26,3 +26,12 @@ print(text_string.index("I"))
 # Insert the correct method in order to return the number of occurrences of the letter e in the string.
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string.count("e"))
+
+
+# Exercise nr.6
+# Insert a method to convert all letters from the string to uppercase
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.upper())
+
+
+# Exercise nr.7
