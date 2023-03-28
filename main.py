@@ -38,3 +38,10 @@ print(text_string.upper())
 # Insert a method in order to get the index at which the substing 'My' starts.
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string.find("My"))
+
+
+# Exercise nr.8
+# Insert the correct method in order to check if the strings starts with the letter N. 
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.startswith("N")) # return False
+print(text_string.startswith("H")) # return True
