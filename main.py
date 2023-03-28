@@ -35,3 +35,6 @@ print(text_string.upper())
 
 
 # Exercise nr.7
+# Insert a method in order to get the index at which the substing 'My' starts.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.find("My"))
