@@ -57,3 +57,12 @@ print(text_string.swapcase())
 # Insert the correct method in order to remove all spaces.
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string.replace(" ",""))
+
+
+# Exercise nr.11
+# insert the correct method in order to replace all the occurences of letter e with substring abc.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.replace('e', 'abc'))
+
+
+# Exercise nr.12
