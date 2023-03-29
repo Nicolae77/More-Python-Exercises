@@ -69,3 +69,12 @@ print(text_string.replace('e', 'abc'))
 # Insert the correct method in order to split entire string in two parts, using comma as a delimiter.
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string.split(","))
+
+
+# Exercise nr.13
+# Insert the correct method in order to join the characters of the string using the & symbol as a delimiter.
+text_string = "Hello! My name is Nick, I am web developer."
+print("&".join(text_string))
+
+
+# Exercise nr.14
