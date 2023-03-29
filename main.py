@@ -85,7 +85,9 @@ print(text_string + next_string)
 
 
 # Exercise nr.15
-
+# Insert the correct method in order to convert the first letter of each word in the string to uppercase.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.title())
 
 
 
