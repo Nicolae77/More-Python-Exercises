@@ -78,3 +78,16 @@ print("&".join(text_string))
 
 
 # Exercise nr.14
+# Insert the correct code in order to concatenate text_string with next_string.
+text_string = "Hello! My name is Nick, I am web developer."
+next_string = " I am specialized in Python, Django, and Flask"
+print(text_string + next_string)
+
+
+# Exercise nr.15
+
+
+
+
+
+
