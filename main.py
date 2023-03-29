@@ -66,3 +66,6 @@ print(text_string.replace('e', 'abc'))
 
 
 # Exercise nr.12
+# Insert the correct method in order to split entire string in two parts, using comma as a delimiter.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.split(","))
