@@ -102,3 +102,12 @@ text_string = "{}! My name is {}, {} am web developer."
 print(text_string.format("Hello", "Nick", "I"))
 
 
+# Exercise nr.18
+# Using slicing in order to return substring Nick from the string. Use positive indexes.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string.index("N"))
+print(text_string.index("k"))
+print(text_string[18:22])
+
+
+
