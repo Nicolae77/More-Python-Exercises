@@ -96,5 +96,9 @@ text_string = "%s! My name is %s, %s am web developer."
 print(text_string % ("Hello", "Nick", "I"))
 
 
+# Exercise nr.17
+# Using string formating with the format() method map the value of Hello, Nick, and I to the corresponding formatting operators.
+text_string = "{}! My name is {}, {} am web developer."
+print(text_string.format("Hello", "Nick", "I"))
 
 
