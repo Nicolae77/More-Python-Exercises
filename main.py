@@ -90,6 +90,11 @@ text_string = "Hello! My name is Nick, I am web developer."
 print(text_string.title())
 
 
+# Exercise nr.16
+# Using string formating with the % operator map the value of: Hello, Nick, and I corresponding formatting operators.
+text_string = "%s! My name is %s, %s am web developer."
+print(text_string % ("Hello", "Nick", "I"))
+
 
 
 
