@@ -110,4 +110,9 @@ print(text_string.index("k"))
 print(text_string[18:22])
 
 
+# Exercise nr.19
+# Using slicing in order to return substring Nick from the string. Use negative indexes.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string[-25:-21])
+
 
