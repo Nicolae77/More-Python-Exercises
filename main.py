@@ -120,8 +120,16 @@ print(text_string[-25:-21])
 # Using slising return the first 10 characters in the string. Use a single positive index.
 text_string = "Hello! My name is Nick, I am web developer."
 new_string = text_string[:10]
-print(new_string)
 print(len(new_string))
+print(new_string)
 
+
+
+# Exercise nr.21
+#  Using slising return the last 12  characters in the string. Use a single negative index.
+text_string = "Hello! My name is Nick, I am web developer."
+new_str = text_string[-12:]
+print(len(new_str))
+print(new_str)
 
 
