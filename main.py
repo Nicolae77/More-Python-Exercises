@@ -116,3 +116,12 @@ text_string = "Hello! My name is Nick, I am web developer."
 print(text_string[-25:-21])
 
 
+# Exercise nr.20
+# Using slising return the first 10 characters in the string. Use a single positive index.
+text_string = "Hello! My name is Nick, I am web developer."
+new_string = text_string[:10]
+print(new_string)
+print(len(new_string))
+
+
+
