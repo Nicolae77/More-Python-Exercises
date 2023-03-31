@@ -150,3 +150,8 @@ print(text_string[::5])
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string[5:])
 
+
+# Exercise nr.25
+# Using the slicing return the string except the last 9 characters. Use a single, negative index.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string[:-7])
