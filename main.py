@@ -145,4 +145,8 @@ text_string = "Hello! My name is Nick, I am web developer."
 print(text_string[::5])
 
 
+# Exercise nr.24
+# Using slicing return the string except the first 5 characters. Use a single, positive index.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string[5:])
 
