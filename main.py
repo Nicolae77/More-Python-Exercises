@@ -133,3 +133,9 @@ print(len(new_str))
 print(new_str)
 
 
+# Exercise nr.22
+# Using slicingreturn the entire string in reversed order.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string[::-1])
+
+
