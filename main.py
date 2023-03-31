@@ -126,7 +126,7 @@ print(new_string)
 
 
 # Exercise nr.21
-#  Using slising return the last 12  characters in the string. Use a single negative index.
+#  Using slicing return the last 12  characters in the string. Use a single negative index.
 text_string = "Hello! My name is Nick, I am web developer."
 new_str = text_string[-12:]
 print(len(new_str))
@@ -137,5 +137,12 @@ print(new_str)
 # Using slicingreturn the entire string in reversed order.
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string[::-1])
+
+
+# Exercise nr.23
+# Using slicing return every 5th character of the string, starting with the first character.
+text_string = "Hello! My name is Nick, I am web developer."
+print(text_string[::5])
+
 
 
