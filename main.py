@@ -165,3 +165,10 @@ print(text_string[:-7])
 number1 = 15
 number2 = float(number1)
 print(type(number2))
+
+
+# Exercise nr.27
+# Use the correct function to convert number1 from float to integer.
+number1 = 15.25
+number2 = int(number1)
+print(type(number2))
