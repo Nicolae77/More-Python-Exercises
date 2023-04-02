@@ -172,3 +172,11 @@ print(type(number2))
 number1 = 15.25
 number2 = int(number1)
 print(type(number2))
+
+
+# Exercise nr.28
+# Use the correct math operator in number3 to get reminder between number1 and number2.
+number1 = 27
+number2 = 8
+number3 = number1 % number2
+print(number3)
