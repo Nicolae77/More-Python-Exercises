@@ -188,3 +188,13 @@ number1 = 10
 number2 = 2
 number3 = number1 ** number2
 print(number3)
+
+
+# Exercise nr.29
+number1 = 11
+number2 = 2
+number3 = number1 // number2
+print(number3)
+modulo = 29 % 8
+print(modulo)
+print(number3 == modulo)
