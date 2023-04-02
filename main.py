@@ -1,3 +1,5 @@
+# **************************************** STRING EXERCISES ********************************************* 
+
 # Exercise nr.1
 # Using negative index get the last character from the string.
 text_string = "Hello! My name is Nick, I am web developer."
@@ -155,3 +157,11 @@ print(text_string[5:])
 # Using the slicing return the string except the last 9 characters. Use a single, negative index.
 text_string = "Hello! My name is Nick, I am web developer."
 print(text_string[:-7])
+
+
+# *********************************************NUMBERS and BOOLEANS***************************************
+# Exercise nr.26
+# Use the correct function in order to convert number1 from integer to float.
+number1 = 15
+number2 = float(number1)
+print(type(number2))
