@@ -190,7 +190,8 @@ number3 = number1 ** number2
 print(number3)
 
 
-# Exercise nr.29
+# Exercise nr.30
+# Use number1 and number2 in order to return True, between value of number3 and modulo.
 number1 = 11
 number2 = 2
 number3 = number1 // number2
@@ -198,3 +199,6 @@ print(number3)
 modulo = 29 % 8
 print(modulo)
 print(number3 == modulo)
+
+
+# Exercise nr.30
