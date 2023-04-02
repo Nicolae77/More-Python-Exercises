@@ -180,3 +180,11 @@ number1 = 27
 number2 = 8
 number3 = number1 % number2
 print(number3)
+
+
+# Exercise nr.29
+# Use the correct math operator between number1 and number2 in order to obtain number1 square.
+number1 = 10
+number2 = 2
+number3 = number1 ** number2
+print(number3)
