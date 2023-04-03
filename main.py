@@ -201,4 +201,9 @@ print(modulo)
 print(number3 == modulo)
 
 
-# Exercise nr.30
+# Exercise nr.31
+# Use absolute function to return absolute value of the number1.
+# Ex: The absolute value of -5 is 5.
+number1 = -12
+number2 = abs(number1)
+print(number2)
