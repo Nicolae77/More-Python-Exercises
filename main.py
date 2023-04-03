@@ -218,6 +218,19 @@ print(number3)
 
 
 # Exercise nr.33
-# Use logical operator in order for the final result to be False
+# Use logical operator between two expressions to return the final result False
 result = ((24 / 8) % 3 == 0) and ((abs(-18) / 6 - 1) > 3)
 print(result)
+
+
+
+# Exercise nr.34
+# Use logical operator between two expressions to return the final result True
+result = (min(pow(2, abs(2)), 9) == 4 ** 2 - 12) or (44 % 20 + 10 > 4 ** 2)
+print(result)
+
+
+# Exercise nr.35
+# Use the correct function in order to get final result False.
+result = bool(150 % (10 ** 2 / 4))
+print(result) 
