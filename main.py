@@ -207,3 +207,11 @@ print(number3 == modulo)
 number1 = -12
 number2 = abs(number1)
 print(number2)
+
+
+# Exercise nr.32
+# Use the correct function to raise number1 to the power of number2.
+number1 = 10
+number2 = 2
+number3 = pow(number1, number2)
+print(number3)
