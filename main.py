@@ -215,3 +215,9 @@ number1 = 10
 number2 = 2
 number3 = pow(number1, number2)
 print(number3)
+
+
+# Exercise nr.33
+# Use logical operator in order for the final result to be False
+result = ((24 / 8) % 3 == 0) and ((abs(-18) / 6 - 1) > 3)
+print(result)
