@@ -263,3 +263,10 @@ print(lst)
 lst = [1, 2.4, 'Python', 20, 'Nick']
 lst.remove('Python')
 print(lst)
+
+
+# Exercise nr.40
+# Use the correct method in order to return the index of the element 2.4 from the list.
+lst = [1, 2.4, 'Python', 20, 'Nick']
+indx = lst.index(2.4)
+print(indx)
