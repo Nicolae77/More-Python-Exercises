@@ -270,3 +270,10 @@ print(lst)
 lst = [1, 2.4, 'Python', 20, 'Nick']
 indx = lst.index(2.4)
 print(indx)
+
+
+# Exercise nr.41
+# Use the correct method in order to insert the element 'Django' at index 3 in the list.
+lst = [1, 2.4, 'Python', 20, 'Nick']
+lst.insert(3, 'Django')
+print(lst)
