@@ -277,3 +277,11 @@ print(indx)
 lst = [1, 2.4, 'Python', 20, 'Nick']
 lst.insert(3, 'Django')
 print(lst)
+
+
+# Exercise nr.42
+# Use the corect method in order to concotenate lst1 with lst2.
+lst1 = [1, 2, 3, 4]
+lst2 = [5, 6, 7, 8]
+lst1.extend(lst2)
+print(lst1)
