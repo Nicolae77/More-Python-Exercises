@@ -280,8 +280,22 @@ print(lst)
 
 
 # Exercise nr.42
-# Use the corect method in order to concotenate lst1 with lst2.
+# Use the corect method in order to concatenate lst1 with lst2.
 lst1 = [1, 2, 3, 4]
 lst2 = [5, 6, 7, 8]
 lst1.extend(lst2)
 print(lst1)
+
+
+# Exercise nr.43
+# Use the correct method in order to find out how many times does element 3 occur in the list.
+lst = [1, 3, 2, 3, 4, 5, 6, 3, 7, 3]
+result = lst.count(3)
+print(result)
+
+
+# Exercise nr.44
+# Use the correct method in order to sort the elements of the list in ascending order.
+lst = [2, 4, 2, 1, 6, 8, 9, 0]
+result = sorted(lst)
+print(result)
