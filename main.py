@@ -237,8 +237,15 @@ print(result)
 
 
 # *********************************************LISTS***************************************
-# Exercise nr.35
+# Exercise nr.36
 # Use the correct method to find out the number of elements in the list.
 lst = [1, 2.4, 'Python', 20, 'Nick']
 result = len(lst)
 print(result)
+
+
+# Exercise nr.37
+# Use the correct method in order to remove the element from the list located at index 3.
+lst = [1, 2.4, 'Python', 20, 'Nick']
+lst.pop(3)
+print(lst)
