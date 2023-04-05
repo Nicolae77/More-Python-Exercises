@@ -256,3 +256,10 @@ print(lst)
 lst = [1, 2.4, 'Python', 20, 'Nick']
 lst.append('Developer')
 print(lst)
+
+
+# Exercise nr.39
+# Use the correct method in order to remove the element 'Python' from the list.
+lst = [1, 2.4, 'Python', 20, 'Nick']
+lst.remove('Python')
+print(lst)
