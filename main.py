@@ -234,3 +234,11 @@ print(result)
 # Use the correct function in order to get final result False.
 result = bool(150 % (10 ** 2 / 4))
 print(result) 
+
+
+# *********************************************LISTS***************************************
+# Exercise nr.35
+# Use the correct method to find out the number of elements in the list.
+lst = [1, 2.4, 'Python', 20, 'Nick']
+result = len(lst)
+print(result)
