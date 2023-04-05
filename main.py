@@ -249,3 +249,10 @@ print(result)
 lst = [1, 2.4, 'Python', 20, 'Nick']
 lst.pop(3)
 print(lst)
+
+
+# Exercise nr.38
+# Use the correct method in order to add the element 'Developer' at the end of the list.
+lst = [1, 2.4, 'Python', 20, 'Nick']
+lst.append('Developer')
+print(lst)
