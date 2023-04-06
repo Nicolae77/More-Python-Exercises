@@ -320,3 +320,22 @@ print(result)
 lst = [7, 3, 5, 8, 9, 1, 6, 2, 4]
 result = max(lst)
 print(result)
+
+# Exercise nr.48
+# Use the correct function in order to get the sum of all elements fromthe list.
+lst = [7, 3, 5, 8, 9, 1, 6, 2, 4]
+result = sum(lst)
+print(result)
+
+# Exercise nr.49
+# Use the correct function in oredr to delete all elements from the list.
+lst = [7, 3, 5, 8, 9, 1, 6, 2, 4]
+lst.clear()
+print(lst)
+
+
+# Exercise nr.50
+# Use the correct operators and parantheses in order to add the element [4, 5, 6] to the list and multiply the resulting list by 2.
+lst = [1, 2, 3]
+add = (lst + [4, 5, 6]) * 2
+print(add)
