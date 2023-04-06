@@ -306,3 +306,17 @@ print(result)
 lst = [7, 3, 5, 8, 9, 1, 6, 2, 4]
 result = sorted(lst, reverse=True)
 print(result)
+
+
+# Exercise nr.46
+# Use the correct function in order to find out the smallest number from the list.
+lst = [7, 3, 5, 8, 9, 1, 6, 2, 4]
+result = min(lst)
+print(result)
+
+
+# Exercise nr.47
+# Use the correct function in order to find out the largest number from the list.
+lst = [7, 3, 5, 8, 9, 1, 6, 2, 4]
+result = max(lst)
+print(result)
