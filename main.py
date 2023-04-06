@@ -299,3 +299,10 @@ print(result)
 lst = [2, 4, 2, 1, 6, 8, 9, 0]
 result = sorted(lst)
 print(result)
+
+
+# Exercise nr.45
+# Use the correct function in order to sort the elements from the list in descending order.
+lst = [7, 3, 5, 8, 9, 1, 6, 2, 4]
+result = sorted(lst, reverse=True)
+print(result)
