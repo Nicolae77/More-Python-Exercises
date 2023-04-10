@@ -339,3 +339,10 @@ print(lst)
 lst = [1, 2, 3]
 add = (lst + [4, 5, 6]) * 2
 print(add)
+
+
+# Exercise nr.51
+# Use the correct code in order to return the element 'Python' from the list.
+lst = [1, 2.3, 'Django', 'Python']
+result = lst[3]
+print(result)
