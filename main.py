@@ -346,3 +346,10 @@ print(add)
 lst = [1, 2.3, 'Django', 'Python']
 result = lst[3]
 print(result)
+
+
+# Exercise nr.52
+# Use the correct code in order to return the element 'Django' from the list.
+lst = [1, 2.3, 'Django', 'Python']
+result = lst[-2]
+print(result)
