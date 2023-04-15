@@ -349,7 +349,14 @@ print(result)
 
 
 # Exercise nr.52
-# Use the correct code in order to return the element 'Django' from the list.
+# Use the correct code in order to return the element 'Django' from the list based on its negative index.
 lst = [1, 2.3, 'Django', 'Python']
 result = lst[-2]
+print(result)
+
+
+# Exercise nr.53
+# Use the correct code in order to return a slice of ['Django', 'Python'].
+lst = [1, 2.3, 'Django', 'Python', 'Developer']
+result = lst[2:4]
 print(result)
