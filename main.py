@@ -373,3 +373,10 @@ print(result)
 lst = [1, 2.3, 'Django', 'Python', 'Developer']
 result = lst[3:]
 print(result)
+
+
+# Exercise nr.56
+# Use the correct code in order to return list except the last 4 elements, using a single, negative index.
+lst = [1, 2.3, 'Django', 'Python', 'Developer']
+result = lst[:-4]
+print(result)
