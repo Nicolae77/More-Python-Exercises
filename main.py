@@ -356,7 +356,14 @@ print(result)
 
 
 # Exercise nr.53
-# Use the correct code in order to return a slice of ['Django', 'Python'].
+# Use the correct code in order to return a slice of ['Django', 'Python'] based on positive indexes.
 lst = [1, 2.3, 'Django', 'Python', 'Developer']
 result = lst[2:4]
+print(result)
+
+
+# Exercise nr.54
+# Use the correct code in order to return a slice of ['Django', 'Python'] based on negative indexes.
+lst = [1, 2.3, 'Django', 'Python', 'Developer']
+result = lst[-3:-1]
 print(result)
