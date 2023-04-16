@@ -367,3 +367,9 @@ print(result)
 lst = [1, 2.3, 'Django', 'Python', 'Developer']
 result = lst[-3:-1]
 print(result)
+
+# Exercise nr.55
+# Use the correct code in order to return list except the first 3 elements, using a single, positive index.
+lst = [1, 2.3, 'Django', 'Python', 'Developer']
+result = lst[3:]
+print(result)
