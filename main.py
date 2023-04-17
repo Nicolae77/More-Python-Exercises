@@ -380,3 +380,10 @@ print(result)
 lst = [1, 2.3, 'Django', 'Python', 'Developer']
 result = lst[:-4]
 print(result)
+
+
+# Exercise nr.57
+# Use the correct code in oredr to return the list except the first 3 elements, using negative index.
+lst = [1, 2.3, 'Django', 'Python', 'Developer', 'Nick', True]
+result = lst[-4:]
+print(result)
