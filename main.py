@@ -387,3 +387,10 @@ print(result)
 lst = [1, 2.3, 'Django', 'Python', 'Developer', 'Nick', True]
 result = lst[-4:]
 print(result)
+
+
+# Exercise nr.58
+# Use the correct code in oredr to return the list except the last 2 elements, using a single, positive index.
+lst = [1, 2.3, 'Django', 'Python', 'Developer', 'Nick', True]
+result = lst[:5]
+print(result)
