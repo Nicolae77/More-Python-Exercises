@@ -401,3 +401,10 @@ print(result)
 lst = [1, 2.3, 'Django', 'Python', 'Developer', 'Nick', True]
 result = lst[::2]
 print(result)
+
+
+# Exercise nr.60
+# Use the correct code in oredr to return every third element of the list starting with the last element of the list.
+lst = [1, 2.3, 'Django', 'Python', 'Developer', 'Nick', True]
+result = lst[::-3]
+print(result)
