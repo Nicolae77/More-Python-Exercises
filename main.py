@@ -394,3 +394,10 @@ print(result)
 lst = [1, 2.3, 'Django', 'Python', 'Developer', 'Nick', True]
 result = lst[:5]
 print(result)
+
+
+# Exercise nr.59
+# Use the correct code in oredr to return every second element of the list, starting with the first element of the list.
+lst = [1, 2.3, 'Django', 'Python', 'Developer', 'Nick', True]
+result = lst[::2]
+print(result)
