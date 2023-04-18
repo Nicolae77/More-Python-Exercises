@@ -408,3 +408,10 @@ print(result)
 lst = [1, 2.3, 'Django', 'Python', 'Developer', 'Nick', True]
 result = lst[::-3]
 print(result)
+
+
+# Exercise nr.61
+# Use the correct function in order to convert the list to a set.
+lst = [1, 2, 3, 4, 5, 6, 7, 8]
+new_set = set(lst)
+print(new_set)
