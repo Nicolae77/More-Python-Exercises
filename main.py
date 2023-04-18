@@ -443,3 +443,11 @@ print(set1)
 set1 = {1, 2, 3, 4, 5, 6}
 set1.remove(5)
 print(set1)
+
+
+# Exercise nr.66
+# Use the correct code in order to find out the common elements of set1 and set2.
+set1 = {1, 3, 5, 6, 0, 2}
+set2 = {3, 5, 9, 10, 12}
+common = set1.intersection(set2)
+print(sorted(list(common)))
