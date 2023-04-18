@@ -415,3 +415,10 @@ print(result)
 lst = [1, 2, 3, 4, 5, 6, 7, 8]
 new_set = set(lst)
 print(new_set)
+
+
+# Exercise nr.62
+# Use the correct function in order to convert the list to a frozen set.
+lst = [1, 2, 3, 4, 5, 6, 7, 8]
+frz_set = frozenset(lst)
+print(type(frz_set))
