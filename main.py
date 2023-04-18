@@ -422,3 +422,10 @@ print(new_set)
 lst = [1, 2, 3, 4, 5, 6, 7, 8]
 frz_set = frozenset(lst)
 print(type(frz_set))
+
+
+# Exercise nr.63
+# Use the correct code to verify if element 9 is in set1.
+set1 = {1, 2, 3, 4, 5, 6}
+check = 9 in set1
+print(check)
