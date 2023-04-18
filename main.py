@@ -436,3 +436,10 @@ print(check)
 set1 = {1, 2, 3, 4, 5, 6}
 set1.add(9)
 print(set1)
+
+
+# Exercise nr.65
+# Use the correct code in order to remove the element 5 from set1.
+set1 = {1, 2, 3, 4, 5, 6}
+set1.remove(5)
+print(set1)
