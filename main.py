@@ -429,3 +429,10 @@ print(type(frz_set))
 set1 = {1, 2, 3, 4, 5, 6}
 check = 9 in set1
 print(check)
+
+
+# Exercise nr.64
+# Use the correct code in order to add the element 9 to set1.
+set1 = {1, 2, 3, 4, 5, 6}
+set1.add(9)
+print(set1)
