@@ -451,3 +451,11 @@ set1 = {1, 3, 5, 6, 0, 2}
 set2 = {3, 5, 9, 10, 12}
 common = set1.intersection(set2)
 print(sorted(list(common)))
+
+
+# Exercise nr.67
+# Use the correct code in order to join the elements of set1 and set2.
+set1 = {1, 3, 5, 6, 0, 2}
+set2 = {3, 5, 9, 10, 12}
+join = set1.union(set2)
+print(sorted(list(join)))
