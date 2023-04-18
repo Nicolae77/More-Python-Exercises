@@ -459,3 +459,11 @@ set1 = {1, 3, 5, 6, 0, 2}
 set2 = {3, 5, 9, 10, 12}
 join = set1.union(set2)
 print(sorted(list(join)))
+
+
+# Exercise nr.68
+# Use the correct code in order to find out the elements of set2 that are not members of set1.
+set1 = {1, 3, 5, 6, 0, 2}
+set2 = {3, 5, 9, 10, 12}
+result = set2.difference(set1)
+print(sorted(list(result)))
