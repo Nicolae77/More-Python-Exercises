@@ -511,3 +511,10 @@ print(result)
 tup = ("Moldova", "Romania", "Spain", "Estonia", "France", "Spain")
 result = tup[-4:]
 print(result)
+
+
+#  Exercise nr.75
+# Use the correct slice in order to return all elements of tup, except the last two, using a negative index.
+tup = ("Moldova", "Romania", "Spain", "Estonia", "France", "Spain")
+result = tup[:-2]
+print(result)
