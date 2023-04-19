@@ -497,3 +497,10 @@ print(mo + ", " + ro + ", " + sp)
 tup = ("Moldova", "Romania", "Spain", "Estonia")
 last = max(tup)
 print(last)
+
+
+#  Exercise nr.73
+# Use the correct method in order to find out the number of occurrences of Spain in tup.
+tup = ("Moldova", "Romania", "Spain", "Estonia", "France", "Spain")
+result = tup.count("Spain")
+print(result)
