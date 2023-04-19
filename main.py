@@ -469,3 +469,11 @@ set1 = {1, 3, 5, 6, 0, 2}
 set2 = {3, 5, 9, 10, 12}
 result = set2.difference(set1)
 print(sorted(list(result)))
+
+
+# Tuples (A tuple is a collection which is ordered and unchangeable).
+#  Exercise nr.69
+# Use the correct method in orde to find out the number of elements in tup.
+tup = ('Moldova', 'Romania', 'Estonia', 'Bulgaria', 'France', 'Spain')
+result = len(tup)
+print(result)
