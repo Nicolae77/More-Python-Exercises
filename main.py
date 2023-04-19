@@ -424,6 +424,8 @@ frz_set = frozenset(lst)
 print(type(frz_set))
 
 
+# SET (A set is a collection which is unordered, unchangeable*, and unindexed.)
+# A set is a collection of unique data. That is, elements of a set cannot be duplicate.
 # Exercise nr.63
 # Use the correct code to verify if element 9 is in set1.
 set1 = {1, 2, 3, 4, 5, 6}
