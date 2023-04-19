@@ -484,3 +484,9 @@ print(result)
 tup = ('Moldova', 'Romania', 'Estonia', 'Bulgaria', 'France', 'Spain')
 indx = tup.index('Bulgaria')
 print(indx)
+
+
+#  Exercise nr.71
+tup = ("Moldova", "Romania", "Spain")
+(mo, ro, sp) = tup 
+print(mo + ", " + ro + ", " + sp) #returns 'Romania, Poland, Estonia'
