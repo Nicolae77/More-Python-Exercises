@@ -477,3 +477,10 @@ print(sorted(list(result)))
 tup = ('Moldova', 'Romania', 'Estonia', 'Bulgaria', 'France', 'Spain')
 result = len(tup)
 print(result)
+
+
+#  Exercise nr.70
+# Use the correct method in order to find out the index of 'Bulgaria'.
+tup = ('Moldova', 'Romania', 'Estonia', 'Bulgaria', 'France', 'Spain')
+indx = tup.index('Bulgaria')
+print(indx)
