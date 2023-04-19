@@ -489,4 +489,11 @@ print(indx)
 #  Exercise nr.71
 tup = ("Moldova", "Romania", "Spain")
 (mo, ro, sp) = tup 
-print(mo + ", " + ro + ", " + sp) #returns 'Romania, Poland, Estonia'
+print(mo + ", " + ro + ", " + sp)
+
+
+#  Exercise nr.72
+# Use the correct method in order to find out the last element of tup in alphabetical order.
+tup = ("Moldova", "Romania", "Spain", "Estonia")
+last = max(tup)
+print(last)
