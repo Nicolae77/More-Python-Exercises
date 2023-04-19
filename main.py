@@ -236,7 +236,7 @@ result = bool(150 % (10 ** 2 / 4))
 print(result) 
 
 
-# *********************************************LISTS***************************************
+# LISTS  (A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements).
 # Exercise nr.36
 # Use the correct method to find out the number of elements in the list.
 lst = [1, 2.4, 'Python', 20, 'Nick']
