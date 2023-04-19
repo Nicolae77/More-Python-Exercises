@@ -504,3 +504,10 @@ print(last)
 tup = ("Moldova", "Romania", "Spain", "Estonia", "France", "Spain")
 result = tup.count("Spain")
 print(result)
+
+
+#  Exercise nr.74
+# Use the correct slice in order to return all elements of tup, except the first two, using a negative index.
+tup = ("Moldova", "Romania", "Spain", "Estonia", "France", "Spain")
+result = tup[-4:]
+print(result)
