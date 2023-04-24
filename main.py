@@ -536,8 +536,14 @@ print(result)
 
 # Ranges
 #  Exercise nr.78
-# Use the correct function to return a range of consecutive integers from 0 to 9.
+# Use the correct function to return a list of range of consecutive integers from 0 to 9.
 rng = range(10)
+print(list(rng))
+
+
+#  Exercise nr.79
+# Use the correct function in order to return a list of range of consecutive integers from 0 to 9 inclusively, use two arguments.
+rng = range(0, 10)
 print(list(rng))
 
 
