@@ -534,3 +534,10 @@ result = tup[:4]
 print(result)
 
 
+# Ranges
+#  Exercise nr.78
+# Use the correct function to return a range of consecutive integers from 0 to 9.
+rng = range(10)
+print(list(rng))
+
+
