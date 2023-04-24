@@ -575,3 +575,17 @@ print(list(rng))
 # Use the correct range function in order to return [-40, -20, 0, 20, 40]
 rng = range(-40, 50, 20)
 print(list(rng))
+
+
+#  Exercise nr.85
+# Use the correct range function in order to return [-20]
+rng = range(-20, -19)
+print(list(rng))
+
+
+
+
+
+
+
+
