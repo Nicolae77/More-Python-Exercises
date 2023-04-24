@@ -547,3 +547,8 @@ rng = range(0, 10)
 print(list(rng))
 
 
+#  Exercise nr.80
+# Use the correct function in order to return a range of consecutive integers from 20 to 30.
+rng = range(20, 31)
+print(list(rng))
+
