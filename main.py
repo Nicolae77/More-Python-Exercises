@@ -558,3 +558,8 @@ print(list(rng))
 rng = range(1, 10, 2)
 print(list(rng))
 
+
+#  Exercise nr.82
+# Use the correct range function in order to return [115, 120]
+rng = range(115, 125, 5)
+print(list(rng))
