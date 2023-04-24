@@ -552,3 +552,9 @@ print(list(rng))
 rng = range(20, 31)
 print(list(rng))
 
+
+#  Exercise nr.81
+#  Use the correct range function in order to return [1, 3, 5, 7, 9].
+rng = range(1, 10, 2)
+print(list(rng))
+
