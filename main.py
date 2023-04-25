@@ -605,6 +605,11 @@ user_details[3] = "email"
 print(user_details[3])
 
 
+#  Exercise nr.89
+# Use the correct code to add a new key-value pair to the dictionary: 4: "coutry"
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+user_details[4] = "country"
+print(user_details)
 
 
 
