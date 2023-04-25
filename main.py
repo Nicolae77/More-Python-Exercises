@@ -665,3 +665,10 @@ print(result)
 user_details = {1: 'first name', 2: 'last name', 3: 'address'}
 result = user_details.values()
 print(result)
+
+
+#  Exercise nr.98
+# Use the correct function in order to get the smallest key in the dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+small_key = min(user_details)
+print(small_key)
