@@ -591,6 +591,13 @@ result = user_details[3]
 print(result)
 
 
+#  Exercise nr.87
+# Use the correct code to return the value associated with key 3. Use get method.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+result = user_details.get(3)
+print(result)
+
+
 
 
 
