@@ -627,3 +627,14 @@ print(user_details)
 
 
 #  Exercise nr.92
+# Use the correct code in order to delete the key-value pair associated with key 3, use pop method.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+user_details.pop(3)
+print(user_details)
+
+
+#  Exercise nr.93
+# Use the correct code in order to verify that 5 is not a key in the dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+check = 5 not in user_details
+print(check)
