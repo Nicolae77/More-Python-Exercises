@@ -658,3 +658,10 @@ print(result)
 user_details = {1: 'first name', 2: 'last name', 3: 'address'}
 result = sum(user_details)
 print(result)
+
+
+#  Exercise nr.97
+# Use the correct method in order to get a list of all values in the dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+result = user_details.values()
+print(result)
