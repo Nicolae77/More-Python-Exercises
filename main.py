@@ -638,3 +638,10 @@ print(user_details)
 user_details = {1: 'first name', 2: 'last name', 3: 'address'}
 check = 5 not in user_details
 print(check)
+
+
+#  Exercise nr.94
+# Use the correct method in order to delete all the elementsd from dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+user_details.clear()
+print(user_details)
