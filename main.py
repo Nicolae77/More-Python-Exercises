@@ -645,3 +645,10 @@ print(check)
 user_details = {1: 'first name', 2: 'last name', 3: 'address'}
 user_details.clear()
 print(user_details)
+
+
+#  Exercise nr.95
+# Use the correct method in order to get a list of tuple, where each tuple represents a key-value pair in the dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+result = user_details.items()
+print(result)
