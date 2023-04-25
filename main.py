@@ -583,6 +583,12 @@ rng = range(-20, -19)
 print(list(rng))
 
 
+# *****************   Dictionaries   *************************
+#  Exercise nr.86
+# Use the correct code to return the value associated with key 3.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+result = user_details[3]
+print(result)
 
 
 
