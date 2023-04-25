@@ -598,6 +598,12 @@ result = user_details.get(3)
 print(result)
 
 
+#  Exercise nr.88
+# Use the correct code in order to update the value associated with key 3 to email.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+user_details[3] = "email"
+print(user_details[3])
+
 
 
 
