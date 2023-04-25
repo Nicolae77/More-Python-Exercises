@@ -620,3 +620,10 @@ print(result)
 
 
 #  Exercise nr.91
+# Use the correct code in order to delete the key-value pair associated with key 2
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+del user_details[2]
+print(user_details)
+
+
+#  Exercise nr.92
