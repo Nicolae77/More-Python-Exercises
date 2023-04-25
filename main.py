@@ -679,3 +679,10 @@ print(small_key)
 user_details = {1: 'first name', 2: 'last name', 3: 'address'}
 key = user_details.keys()
 print(key)
+
+
+#  Exercise nr.100
+# Use the correct method in order to return and remove an arbitrary key-value pair from the dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address', 4: 'email'}
+user_details.popitem()
+print(user_details)
