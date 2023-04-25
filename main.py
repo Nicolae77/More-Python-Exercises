@@ -652,3 +652,9 @@ print(user_details)
 user_details = {1: 'first name', 2: 'last name', 3: 'address'}
 result = user_details.items()
 print(result)
+
+#  Exercise nr.96
+# Use the correct function in order to get the sum of all keys in the dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+result = sum(user_details)
+print(result)
