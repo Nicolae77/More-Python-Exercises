@@ -612,4 +612,11 @@ user_details[4] = "country"
 print(user_details)
 
 
+#  Exercise nr.90
+# Use the correct code to return the number of key-value pairs in the dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+result = len(user_details)
+print(result)
 
+
+#  Exercise nr.91
