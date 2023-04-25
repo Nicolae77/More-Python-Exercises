@@ -672,3 +672,10 @@ print(result)
 user_details = {1: 'first name', 2: 'last name', 3: 'address'}
 small_key = min(user_details)
 print(small_key)
+
+
+#  Exercise nr.99
+# Use the correct method in order to get a list of all keys in the dictionary.
+user_details = {1: 'first name', 2: 'last name', 3: 'address'}
+key = user_details.keys()
+print(key)
