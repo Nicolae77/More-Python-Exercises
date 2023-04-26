@@ -686,3 +686,11 @@ print(key)
 user_details = {1: 'first name', 2: 'last name', 3: 'address', 4: 'email'}
 user_details.popitem()
 print(user_details)
+
+
+# *****************    Data Type Conversions    ************************************
+#  Exercise nr.101
+# Use the correct function in order to convert integer to a string.
+integer = 20
+convert = str(integer)
+print(type(convert))
