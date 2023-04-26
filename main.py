@@ -719,3 +719,11 @@ string = 'Developer'
 convert = list(string)
 print(type(convert))
 print(convert)
+
+
+#  Exercise nr.105
+# Use the correct function in order to convert list to a tuple.
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+convert = tuple(lst)
+print(type(convert))
+print(convert)
