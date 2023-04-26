@@ -737,6 +737,12 @@ print(type(convert))
 print(convert)
 
 
+#  Exercise nr.107
+integer = 10
+convert = bin(integer)
+print(convert)
+
+
 
 
 
