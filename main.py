@@ -751,6 +751,13 @@ convert = hex(integer)
 print(convert)
 
 
+#  Exercise nr.109
+# Use the correct function in order to convert binary to decimal.
+binary = '0b1010'
+convert = int(binary, 2)
+print(convert)
+
+
 
 
 
