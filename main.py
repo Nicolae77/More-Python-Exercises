@@ -727,3 +727,18 @@ lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 convert = tuple(lst)
 print(type(convert))
 print(convert)
+
+
+#  Exercise nr.106
+# Use the correct function in order to convert tuple to frozenset.
+tpl = (1, 2, 3, 4, 5, 6, 7)
+convert = frozenset(tpl)
+print(type(convert))
+print(convert)
+
+
+
+
+
+
+
