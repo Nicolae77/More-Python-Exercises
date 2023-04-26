@@ -738,8 +738,16 @@ print(convert)
 
 
 #  Exercise nr.107
+# Use the correct function in order to convert integer to a binary
 integer = 10
 convert = bin(integer)
+print(convert)
+
+
+#  Exercise nr.108
+# Use the correct function in order to convert integer to a hexadecimal
+integer = 10
+convert = hex(integer)
 print(convert)
 
 
