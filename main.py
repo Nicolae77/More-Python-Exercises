@@ -694,3 +694,10 @@ print(user_details)
 integer = 20
 convert = str(integer)
 print(type(convert))
+
+
+#  Exercise nr.102
+# Use the correct function in order to convert string to a integer.
+string = '25'
+convert = int(string)
+print(type(convert))
