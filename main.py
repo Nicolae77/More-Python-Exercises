@@ -706,8 +706,16 @@ print(convert)
 
 
 #  Exercise nr.103
-# Use the c0rrect function in order to convert string in floating-point number.
+# Use the correct function in order to convert string in floating-point number.
 integer = 59
 convert = float(integer)
+print(type(convert))
+print(convert)
+
+
+#  Exercise nr.104
+# Use the correct function in order to convert string to a list.
+string = 'Developer'
+convert = list(string)
 print(type(convert))
 print(convert)
