@@ -758,6 +758,13 @@ convert = int(binary, 2)
 print(convert)
 
 
+#  Exercise nr.110
+# Use the correct function in order to convert hexadecimal to decimal notation.
+hexadecimal = '0xa'
+convert = int(hexadecimal, 16)
+print(convert)
+
+
 
 
 
