@@ -694,6 +694,7 @@ print(user_details)
 integer = 20
 convert = str(integer)
 print(type(convert))
+print(convert)
 
 
 #  Exercise nr.102
@@ -701,3 +702,12 @@ print(type(convert))
 string = '25'
 convert = int(string)
 print(type(convert))
+print(convert)
+
+
+#  Exercise nr.103
+# Use the c0rrect function in order to convert string in floating-point number.
+integer = 59
+convert = float(integer)
+print(type(convert))
+print(convert)
