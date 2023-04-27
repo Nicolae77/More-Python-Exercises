@@ -800,5 +800,14 @@ else:
     print("False")
 
 
+#  Exercise nr.115
+# Write a code that prints out True if the last 4 characters of the string are digits and prints out False otherwise.
+y = 'Python is the most popular programming language in 2023'
+if y[-4:].isdigit():
+    print("True")
+else:
+    print("False")
+
+
 
 
