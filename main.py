@@ -809,5 +809,13 @@ else:
     print("False")
 
 
+#  Exercise nr.116
+# Write a code that prints out True, if y has at least 4 elements and the element positionedat index 3 is a boolean and prints out Falseotherwise.
+y = ['Python', 'Django', 4, True, 23.45]
+print(len(y))
+if len(y) >= 4 and type(y[3]) is bool:
+    print("True")
+else:
+    print("False")
 
 
