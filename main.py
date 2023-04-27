@@ -765,6 +765,16 @@ convert = int(hexadecimal, 16)
 print(convert)
 
 
+# *********************************  CONDITIONALS  *********************
+#  Exercise nr.111
+# Write a code that peints out True if y has 20 characters or more.
+y = 'Python is the most popular programming language.'
+print(len(y))
+if len(y) >= 20:
+    print("y, has 20 or more characters")
+
+
+
 
 
 
