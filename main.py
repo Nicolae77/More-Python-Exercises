@@ -780,6 +780,14 @@ y = 'Python is the most popular programming language.'
 if type(y) is str and y.startswith("P"):
     print("True")
 
+#  Exercise nr.113
+# Write a code that prints out True, if at least one of the following conditions occurs:
+# 1. the string contains the character 'w'.
+# 2. the string contains the character 'o' 4 times.
+y = 'Python is the most popular programming language.'
+print(y.count('o'))
+if 'w' in y or y.count('o') >= 4:
+    print('True')
 
 
 
