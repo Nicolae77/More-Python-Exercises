@@ -790,5 +790,15 @@ if 'w' in y or y.count('o') >= 4:
     print('True')
 
 
+#  Exercise nr.114
+# Write a code that prints out True, if index of letter 'o' is less than 5 and prints out False if the same condition is not satisfied.
+y = 'Python is the most popular programming language.'
+print(y.index('o'))
+if y.index('o') < 5:
+    print("True")
+else:
+    print("False")
+
+
 
 
