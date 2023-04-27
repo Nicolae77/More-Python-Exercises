@@ -774,7 +774,11 @@ if len(y) >= 20:
     print("y, has 20 or more characters")
 
 
-
+#  Exercise nr.112
+# Write a code that prints out True, if y is string and the first character inthe string is P.
+y = 'Python is the most popular programming language.'
+if type(y) is str and y.startswith("P"):
+    print("True")
 
 
 
