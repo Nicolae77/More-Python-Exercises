@@ -826,3 +826,14 @@ if y[5][1].endswith("h") and y[8][0].endswith("h"):
     print("True")
 else:
     print("False")
+
+
+#  Exercise nr.118
+# Write a code that prints out True if one of the following two conditions are satisfied and prints out False otherwise.
+# 1. The third string of the first list in y ends with the letter 'h'.
+# 2. The second string of the second list in y also ends with the letter 'h'.
+y = ['Python', 'Django', 4, True, 23.45, ["length", "width", "height"], 7, 10, ["length", "width", "height"]]
+if y[5][2].endswith("h") or y[8][1].endswith("h"):
+    print("True")
+else:
+    print("False")
