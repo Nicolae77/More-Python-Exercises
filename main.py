@@ -837,3 +837,14 @@ if y[5][2].endswith("h") or y[8][1].endswith("h"):
     print("True")
 else:
     print("False")
+
+
+#  Exercise nr.119
+# Write a code that prints out True if the largest value among the first 3 elements of the list is less than or equal to the smallest value among the next 3 elements of the list. Otherwise, print out False.
+x = [115, 116, 117, 109, 115, 120, ["length", "width", "height"]]
+print(x[:3])
+print(x[3:6])
+if max(x[:3]) <= min(x[3:6]):
+    print("True!")
+else:
+    print("False!")
