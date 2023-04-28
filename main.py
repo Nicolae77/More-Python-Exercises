@@ -811,7 +811,7 @@ else:
 
 #  Exercise nr.116
 # Write a code that prints out True, if y has at least 4 elements and the element positionedat index 3 is a boolean and prints out Falseotherwise.
-y = ['Python', 'Django', 4, True, 23.45]
+
 print(len(y))
 if len(y) >= 4 and type(y[3]) is bool:
     print("True")
@@ -819,3 +819,10 @@ else:
     print("False")
 
 
+#  Exercise nr.117
+# Write a code that prints out True if the second string of the first list in y ends with the letter 'h' and the first string of the second list in y also ends with the letter 'h', and prints out False otherwise.
+y = ['Python', 'Django', 4, True, 23.45, ["length", "width", "height"], 7, 10, ["length", "width", "height"]]
+if y[5][1].endswith("h") and y[8][0].endswith("h"):
+    print("True")
+else:
+    print("False")
