@@ -879,3 +879,15 @@ if 3 in y and sorted(y.values())[0] == "C#":
     print("True")
 else:
     print("False")
+
+
+#  Exercise nr.122
+x = {1: "Python", 2: "Java", 3: "Javascript", 4: "Ruby", 5: "Perl", 6: "C#", 7: "C++"}
+ 
+if sorted(x.values())[-1][-1] == "n":
+    print("True!")
+else:
+    print("False!")
+print(sorted(x.values()))
+print(sorted(x.values())[-1])
+print(sorted(x.values())[-1][-1])
