@@ -872,5 +872,10 @@ print(len(y) % 4)
 
 
 
-
-
+#  Exercise nr.122
+# Write a code that prints out True if 3 is a key value in the dictionary and the smallest value(alphabetical) in the dictionary is C#, Otherwise print False.
+y = {1: 'Python', 2: 'Developer', 3: 'Django', 4: 'C#'}
+if 3 in y and sorted(y.values())[0] == "C#":
+    print("True")
+else:
+    print("False")
