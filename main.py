@@ -848,3 +848,13 @@ if max(x[:3]) <= min(x[3:6]):
     print("True!")
 else:
     print("False!")
+
+
+
+#  Exercise nr.120
+# Write a code that prints out True if 110 appears at least once inside the list or if it is the second element in the list
+x = [110, 116, 117, 109, 110, 120, ["length", "width", "height"]]
+if x.count(110) >= 1 or x.index(110) == 1:
+    print("True")
+else:
+    print("False")
