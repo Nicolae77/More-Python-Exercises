@@ -858,3 +858,19 @@ if x.count(110) >= 1 or x.index(110) == 1:
     print("True")
 else:
     print("False")
+
+
+#  Exercise nr.121
+# Write a code that prints out True if the value associated with kye number 3 is Django or the number of kye-value pairs in the dictionary divided by 4 returns a reminder less than 2.
+y = {1: 'Python', 2: 'Developer', 3: 'Django'}
+if y[3] == 'Django' or len(y) % 4 < 2:
+    print("True!")
+else:
+    print('False!')
+
+print(len(y) % 4)
+
+
+
+
+
