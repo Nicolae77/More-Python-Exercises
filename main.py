@@ -914,7 +914,7 @@ else:
     print("False!")
 
 #  Exercise nr.126
-# write code that prints out True! if the 3rd element of the first range is less than 2, prints out False! if the 5th element of the first range is 5, and prints out None! otherwise.
+# Write code that prints out True! if the 3rd element of the first range is less than 2, prints out False! if the 5th element of the first range is 5, and prints out None! otherwise.
 y = [list(range(6)), list(range(5,10)), list(range(1,11,3))]
 print(y[0])
 print(y[1])
@@ -928,7 +928,7 @@ else:
 
 
 #  Exercise nr.127
-# write code that prints out True! if the 3rd element of the 3rd range is less than 6, prints out False! if the 1st element of the second range is 5, and prints out None! otherwise.
+# Write code that prints out True! if the 3rd element of the 3rd range is less than 6, prints out False! if the 1st element of the second range is 5, and prints out None! otherwise.
 x = [list(range(5)), list(range(5,9)), list(range(1,10,3))]
 print(x[2][2])
 print(x[1][0])
@@ -940,6 +940,18 @@ else:
     print("None!")
 
 
+#  Exercise nr.128
+# Write code that prints out True! if the last element of the first range is greater than 3, prints out False! if the last element of the second range is less than 9, and prints out None! otherwise.
+
+x = [list(range(5)), list(range(5,9)), list(range(1,10,3))]
+print(x[0][-1])
+print(x[1][-1])
+if x[0][-1] > 3:
+    print("True!")
+elif x[1][-1] < 9:
+    print("False!")
+else:
+    print("None")
 
 
 
