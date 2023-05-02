@@ -881,7 +881,7 @@ else:
     print("False")
 
 
-#  Exercise nr.122
+#  Exercise nr.123
 x = {1: "Python", 2: "Java", 3: "Javascript", 4: "Ruby", 5: "Perl", 6: "C#", 7: "C++"}
  
 if sorted(x.values())[-1][-1] == "n":
@@ -893,7 +893,7 @@ print(sorted(x.values())[-1])
 print(sorted(x.values())[-1][-1])
 
 
-#  Exercise nr.123
+#  Exercise nr.124
 # Write code that prints out True! if the largest key in the dictionary divided by the second largest key in the dictionary returns a remainder equal to the smallest key in the dictionary. Otherwise, print out False!
 x = {1: "Python", 2: "Java", 3: "Javascript", 4: "Ruby", 5: "Perl", 6: "C#", 7: "C++"}
 
@@ -903,7 +903,7 @@ else:
     print("False!")
 
 
-#  Exercise nr.124
+#  Exercise nr.125
 # Write code that prints out True! if the sum of all the keys in the dictionary is less than the number of characters of the string obtained by concatenating the values associated with the first 5 keys in the dictionary. Otherwise, print out False!
 x = {1: "Python", 2: "Java", 3: "Javascript", 4: "Ruby", 5: "Perl", 6: "C#", 7: "C++"}
 print(sum(x))
@@ -912,4 +912,17 @@ if sum(x) < len(x[1] + x[2] + x[3] + x[4] + x[5]):
     print("True!")
 else:
     print("False!")
+
+#  Exercise nr.126
+# write code that prints out True! if the 3rd element of the first range is less than 2, prints out False! if the 5th element of the first range is 5, and prints out None! otherwise.
+y = [list(range(6)), list(range(5,10)), list(range(1,11,3))]
+print(y[0])
+print(y[1])
+print(y[2])
+if y[0][2] < 2:
+    print("True")
+elif y[0][4] == 5:
+    print("False")
+else:
+    print("None")
 
