@@ -1110,6 +1110,12 @@ while y <= 15 and y % 5 == 0:
     y += 1
 
 
+#  Exercise nr.144
+# Write a while loop that prints out the absolute value of y while y is negative.
+y = -5
+while y < 0:
+    print(abs(y))
+    y += 1
 
 
 
