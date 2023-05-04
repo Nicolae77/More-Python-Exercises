@@ -1083,5 +1083,11 @@ for i in y:
     print(y.index(i))
     
 
-
+#  Exercise nr.141
+# Write a while loop that prints out the value of y squared while y is less than or equal to 10. Be careful not to end up with an infinite loop!
+print('y squared while y is less than or equal to 10')
+y = 0
+while y <= 10:
+    print(y ** 2)
+    y += 1
 
