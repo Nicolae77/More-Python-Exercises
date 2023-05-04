@@ -1047,3 +1047,13 @@ else:
 y = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 for i in y:
     print(i)
+
+
+#  Exercise nr.137
+# Write a loop that iterates over the y list and prints out the remainders of each element of the list divided by 3.
+print('Elements of the list divided by 3')
+y = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for i in y:
+    if i % 3 == 0:
+        print(i)
+
