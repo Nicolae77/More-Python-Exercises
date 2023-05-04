@@ -1040,3 +1040,10 @@ if len(min(x.values())) == x[3].count("a"):
 else:
     print("False!")
 
+
+# ********************************* LOOPS ******************************
+#  Exercise nr.136
+# Write a loop that iterates over the y list and prints out all the elements of the list.
+y = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for i in y:
+    print(i)
