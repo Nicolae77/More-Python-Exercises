@@ -1065,11 +1065,23 @@ y = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 for i in sorted(y, reverse=True):
     print(i * 2)
 
+#  Exercise nr.139
+# Write a for loop that iterates over the y list and prints out all the elements of the list divided by 2 and the string 'Well Done'! after the list is exhausted.
+print('Division by 2')
+y = [4, 8, 12, 16, 20, 24, 28, 32, 36]
+for i in y:
+    print(int(i / 2))
+else:
+    print('Well Done')
 
 
-
-
-
+#  Exercise nr.140
+# Write a for loop that iterates over the y list and prints out the index of each element.
+print('Index of each element')
+y = [4, 8, 12, 16, 20, 24, 28, 32, 36]
+for i in y:
+    print(y.index(i))
+    
 
 
 
