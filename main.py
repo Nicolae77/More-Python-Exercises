@@ -1102,7 +1102,12 @@ else:
     print('Well Done')
 
 
-
+#  Exercise nr.143
+# Write a while loop that prints out the value of y plus 10 while y is less than or equal to 15 and the remainder of y divided by 5 is 0.
+y = 10
+while y <= 15 and y % 5 == 0:
+    print(y + 10)
+    y += 1
 
 
 
