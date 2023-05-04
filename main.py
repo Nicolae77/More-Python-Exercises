@@ -1057,3 +1057,19 @@ for i in y:
     if i % 3 == 0:
         print(i)
 
+
+#  Exercise nr.138
+# Write a for loop that iterates over the y list and prints out all the elements of the list in reversed order and multiplied by 2.
+print('sorted list')
+y = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for i in sorted(y, reverse=True):
+    print(i * 2)
+
+
+
+
+
+
+
+
+
