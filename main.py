@@ -1138,5 +1138,16 @@ for i in y:
         print(i * 2)
 
 
+#  Exercise nr.147
+# Write code that will iterate over the x and y lists and multiply each element of x with each element of y, also printing the results to the screen.
+x = [1, 2, 3, 4]
+y = [2, 3]
+for i in x:
+    
+    for j in y:
+        
+        print(i * j)
+        
+
 
 
