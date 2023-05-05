@@ -1130,6 +1130,13 @@ else:
     print(x / y)
 
 
+#  Exercise nr.146
+# Write code that will iterate over the y list and multiply by 2 only the elements that are greater than 10 and print them out to the screen.
+y = [1, 4, 6, 7, 10, 11, 22, 33]
+for i in y:
+    if i > 10:
+        print(i * 2)
+
 
 
 
