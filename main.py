@@ -1147,14 +1147,24 @@ for i in x:
         print(i * j)
 
 
-# #  Exercise nr.147
+#  Exercise nr.148
 # Write code that will iterate over the x and y lists and multiply each element of x with each element of y that is less than 12, also printing the results to the screen.
 x = [2, 4, 6, 8]
 y = [5, 10, 15, 20]
-
+print('')
 for i in x:
     for j in y:
         if j < 12:
             print(i * j)
 
 
+#  Exercise nr.149
+# Write code that will iterate over the x and y lists and multiply each element of x that is greater than 5 with each element of y that is less than 12, also printing the results to the screen.
+x = [2, 4, 6, 8]
+y = [5, 10, 15, 20]
+
+for i in x:
+    for j in y:
+        if i > 5 and j < 12:
+            print(i * j)
+            
