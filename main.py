@@ -1182,7 +1182,13 @@ for i in x:
             print(i * j ** 2)
 
 
-
+#  Exercise nr.151
+# Write code that will print out each character in x doubled if that character is also inside y.
+x = 'Python'
+y = 'Django'
+for i in x:
+    if i in y:
+        print(i * 2)
 
 
 
