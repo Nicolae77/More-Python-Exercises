@@ -1235,6 +1235,18 @@ while x <= 11:
         x += 1
 
 
+#  Exercise nr.156
+# Insert a break statement
+x = [1, 2]
+y = [10, 100]
+
+for i in x:
+    for j in y:
+        if i % 2 == 0:
+            print(i * j)
+        print(i)
+        break
+    print(j)
 
 
 
