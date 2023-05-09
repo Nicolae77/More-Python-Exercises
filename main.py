@@ -1222,8 +1222,17 @@ else:
     print("The end!")
 
 
+#  Exercise nr.155
+# Write a while loop that prints out the value of x times 11 while x is less than or equal to 11.  When x becomes equal to 10, print out x is 10! Be careful not to end up with an infinite loop!
 
-
+x = 5
+while x <= 11:
+    if x == 10:
+        print('x is 10')
+        x += 1
+    else:
+        print(x * 11)
+        x += 1
 
 
 
