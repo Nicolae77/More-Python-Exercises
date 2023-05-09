@@ -1249,6 +1249,39 @@ for i in x:
     print(j)
 
 
+#  Exercise nr.157
+# Insert a break statement 
+x = [1, 2]
+y = [10, 100]
+
+for i in x:
+    for j in y:
+        if i % 2 == 0:
+            break
+            print(i * j)
+        print(i)
+    print(j)
+
+
+#  Exercise nr.158
+# Insert a continue statement
+x = [1, 2]
+y = [10, 100]
+
+for i in x:
+    for j in y:
+        if i % 2 == 0:
+            print(i * j)
+            continue
+        print(i)
+    print(j)
+
+
+
+
+
+
+
 
 
 
