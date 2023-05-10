@@ -1338,6 +1338,15 @@ for i in x:
             print(i * j)
 
 
+#  Exercise nr.163
+# Fix the code below so that it doesn't generate a SyntaxError.
+x = [1, 2]
+y = [10, 100]
+
+for i in x:
+    for j in y: 
+        if i % 2 == 0: # i instead j
+            print(i * j)
 
 
 
