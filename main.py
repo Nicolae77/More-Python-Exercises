@@ -1338,7 +1338,7 @@ for i in x:
             print(i * j)
 
 
-#  Exercise nr.163
+#  Exercise nr.164
 # Fix the code below so that it doesn't generate a SyntaxError.
 x = [1, 2]
 y = [10, 100]
@@ -1349,8 +1349,15 @@ for i in x:
             print(i * j)
 
 
+#  Exercise nr.165
+# Fix the code below so that it doesn't generate a SyntaxError.
+x = [1, 2]
+y = [10, 100]
 
-
+for i in x:
+    for j in y:
+        if i % 2 == 0:
+            print(x[1] * y[1]) # y[1] instead y[2]
 
 
 
