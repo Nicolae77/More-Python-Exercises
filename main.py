@@ -1290,7 +1290,7 @@ for i in x:
     print(j)
 
 
-#  Exercise nr.159
+#  Exercise nr.160
 # Insert a continue statement
 x = [1, 2]
 y = [10, 100]
@@ -1305,8 +1305,8 @@ for i in x:
 
 
 # **************************** EXCEPTIONS ********************************
-#  Exercise nr.160
-# 
+#  Exercise nr.161
+# Fix the code below so that it doesn't generate a SyntaxError.
 x = [1, 2]
 y = [10, 100]
 print(' Exceptions:')
@@ -1315,6 +1315,8 @@ for i in x:
         if i % 2 == 0:
             print(i * j)
 
+
+#  Exercise nr.162
 
 
 
