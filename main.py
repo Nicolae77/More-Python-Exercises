@@ -1304,6 +1304,17 @@ for i in x:
     print(j)
 
 
+# **************************** EXCEPTIONS ********************************
+#  Exercise nr.160
+# 
+x = [1, 2]
+y = [10, 100]
+print(' Exceptions:')
+for i in x:
+    for j in y:
+        if i % 2 == 0:
+            print(i * j)
+
 
 
 
