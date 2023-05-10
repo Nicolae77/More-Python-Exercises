@@ -1412,8 +1412,22 @@ finally:
     print("Finish!")
 
 
+# ***************************************** FUNCTIONS ******************
+#  Exercise nr.171
+# Implement a function called my_func() that simply prints out Hello Python! to the screen and call the function.
+def my_func():
+    print("Hello Python!")
+    
+my_func()
 
 
+#  Exercise nr.172
+# Implement a function called my_func() that creates a variable add which stores the result of adding 30 and 40, and prints out the value of add. Don't forget to also call the function!
+def my_func():
+    add = 30 + 40
+    print(add)
+
+my_func()
 
 
 
