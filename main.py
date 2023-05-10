@@ -1368,7 +1368,14 @@ except ZeroDivisionError:
     print("Zero!")
 
 
-
+#  Exercise nr.167
+# Add the necessary clause(s) to the code below so that in case the code under try raises no exceptions then the program prints out the result of the math operation and the string Clean! to the screen.
+try:
+    print(25 % 5 ** 5 + 5)
+except:
+    print("Bug!")   
+else:
+    print("Clean!")
 
 
 
