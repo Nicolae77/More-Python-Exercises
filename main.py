@@ -1360,4 +1360,24 @@ for i in x:
             print(x[1] * y[1]) # y[1] instead y[2]
 
 
+#  Exercise nr.166
+# Add the necessary clause(s) to the code below so that in case the ZeroDivisionError exception is raised then the program prints out Zero! to the screen.
+try:
+    print(25 % 0)
+except ZeroDivisionError:
+    print("Zero!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
