@@ -1312,15 +1312,30 @@ y = [10, 100]
 print(' Exceptions:')
 for i in x:
     for j in y:
-        if i % 2 == 0:
+        if i % 2 == 0: # insert the colon
             print(i * j)
 
 
 #  Exercise nr.162
+# Fix the code below so that it doesn't generate a SyntaxError.
+x = [1, 2]
+y = [10, 100]
+print(' Exceptions:')
+for i in x:
+    for j in y:
+        if i % 2 == 0:
+            print(i * j) # insert parenthesis
 
 
+#  Exercise nr.163
+# Fix the code below so that it doesn't generate a SyntaxError.
+x = [1, 2]
+y = [10, 100]
 
-
+for i in x:
+    for j in y: # j instead i
+        if i % 2 == 0:
+            print(i * j)
 
 
 
