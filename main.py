@@ -1438,6 +1438,14 @@ result = my_func(5)
 print(result)
 
 
+#  Exercise nr.174
+# Implement a function called my_func() that takes two parameters x and y and divides x by y, also returning the result when the function is called.
+def my_func(x, y):
+    return x / y
+
+result = my_func(18, 9)
+print(result)
+
 
 
 
