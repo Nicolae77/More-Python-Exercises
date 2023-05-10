@@ -1430,6 +1430,13 @@ def my_func():
 my_func()
 
 
+#  Exercise nr.173
+# Implement a function called my_func() that takes a single parameter x and multiplies it with 10, also returning the result when the function is called.
+def my_func(x):
+    return x * 10
+result = my_func(5)
+print(result)
+
 
 
 
