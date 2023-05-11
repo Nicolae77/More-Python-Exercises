@@ -1447,6 +1447,13 @@ result = my_func(18, 9)
 print(result)
 
 
+#  Exercise nr.175
+# Implement a function called my_func() that takes 3 parameters x, y and z and raises x to the power of y then adds z, also returning the result when the function is called.
+def my_func(x, y, z):
+    return x ** y + z
+
+result = my_func(2,3,4)
+print(result)
 
 
 
