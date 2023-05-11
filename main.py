@@ -1478,6 +1478,13 @@ result = my_func("Puthon is one of the most popular programming language.")
 print(result)
 
 
+#  Exercise nr.178
+# Implement a function called my_func() that takes a single parameter x (a list) and eliminates all duplicates from the list, also returning the result when the function is called.
+def my_func(x):
+    return list(set(x))
+
+result = my_func([1, 2, 3, 4, 3, 6, 4, 7, 5, 9, 8, 3, 8, 1, 5, 7, 6, 9])
+print(result)
 
 
 
