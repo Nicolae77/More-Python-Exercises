@@ -1469,6 +1469,14 @@ result = my_func(2)
 print(result)
 
 
+#  Exercise nr.177
+# Implement a function called my_func() that takes a single parameter x (a string) and turns each character of the string to uppercase, also returning the result when the function is called.
+def my_func(x):
+    return x.upper()
+
+result = my_func("Puthon is one of the most popular programming language.")
+print(result)
+
 
 
 
