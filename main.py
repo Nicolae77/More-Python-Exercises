@@ -1487,8 +1487,26 @@ result = my_func([1, 2, 3, 4, 3, 6, 4, 7, 5, 9, 8, 3, 8, 1, 5, 7, 6, 9])
 print(result)
 
 
+#  Exercise nr.179
+#  Implement a function called my_func() that takes a single parameter x (a tuple) and for each element of the tuple that is greater than 4 it raises that element to the power of 2, also adding it to a new (initially empty) list called my_new_list. Finally, the code returns the result when the function is called.
+def my_func(x):
+    my_new_list = []
+    for i in x:
+        if i > 4:
+            my_new_list.append(i ** 2)
+    return my_new_list
+
+result = my_func((2, 3, 5, 6, 7, 8, 9))
+print(result)
 
 
+#  Exercise nr.180
+# Implement a function called my_func() that takes a single parameter x (a dictionary) and multiplies the number of elements in the dictionary with the largest key in the dictionary, also returning the result when the function is called.
+def my_func(x):
+    return len(x) * sorted(x.keys())[-7]
+
+result = my_func({1: 3, 2: 3, 4: 5, 5: 9, 6: 8, 3: 7, 7: 0})
+print(result)
 
 
 
