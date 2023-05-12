@@ -1503,12 +1503,19 @@ print(result)
 #  Exercise nr.180
 # Implement a function called my_func() that takes a single parameter x (a dictionary) and multiplies the number of elements in the dictionary with the largest key in the dictionary, also returning the result when the function is called.
 def my_func(x):
-    return len(x) * sorted(x.keys())[-7]
+    return len(x) * sorted(x.keys())[-1]
 
 result = my_func({1: 3, 2: 3, 4: 5, 5: 9, 6: 8, 3: 7, 7: 0})
 print(result)
 
 
+#  Exercise nr.181
+# Implement a function called my_func() that takes a single positional parameter x and a default parameter y which is equal to 20 and multiplies the two, also returning the result when the function is called.
+def my_func(x, y=20):
+    return x * y
+
+result = my_func(2)
+print(result)
 
 
 
