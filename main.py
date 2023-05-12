@@ -1518,7 +1518,13 @@ result = my_func(2)
 print(result)
 
 
+#  Exercise nr.182
+# Implement a function called my_func() that takes a single positional parameter x and two default parameters y and z which are equal to 10 and 20 respectively, and adds them together, also returning the result when the function is called.
+def my_func(x, y=10, z=20):
+    return x + y + z
 
+result = my_func(30)
+print(result)
 
 
 
