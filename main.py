@@ -1537,6 +1537,15 @@ result = my_func(list(range(2, 20, 2)), 4)
 print(result)
 
 
+#  Exercise nr.184
+# Implement a function called my_func() that takes a positional parameter x and a variable-length tuple of parameters and returns the result of multiplying x with the second element in the tuple, also returning the result when the function is called.
+def my_func(x, *args):
+    print(x)
+    print(*args)
+    return x * args[1]
+
+result = my_func(5, 10, 20, 30, 50)
+print(result)
 
 
 
