@@ -1527,7 +1527,14 @@ result = my_func(30)
 print(result)
 
 
+#  Exercise nr.183
+# Implement a function called my_func() that takes two default parameters x (a list) and y (an integer), and returns the element in x positioned at index y, also printing the result to the screen when called.
+print('hi')
+def my_func(x, y):
+    return x[y]
 
+result = my_func(list(range(2, 20, 2)), 4)
+print(result)
 
 
 
