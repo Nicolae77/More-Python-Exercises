@@ -1605,6 +1605,12 @@ def my_func(x):
 my_func(10)
 
 
+#  Exercise nr.190
+# Write code that will import only the pi variable from the math module and then it will format it in order to have only 4 digits after the floating point. Of course, print out the result to the screen using the print() function.
+from math import pi
+
+print("%.4f" % pi)
+
 
 
 
