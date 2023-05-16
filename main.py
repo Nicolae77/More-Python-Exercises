@@ -1582,6 +1582,15 @@ def my_func(x):
 my_func(100)
 
 
+#  Exercise nr.188
+# Make the necessary adjustment inside the function in order to get 60 as a result of calling my_func() and have the result printed out to the screen.
+def my_func(x):
+    var = 6
+    print(x * var)
+    
+	
+	
+my_func(10)
 
 
 
