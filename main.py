@@ -1571,6 +1571,15 @@ def my_func(x):
 my_func(20)
 
 
+#  Exercise nr.187
+# Add the correct line(s) of code inside the function in order to get 1000 as a result of calling my_func() and have the result printed out to the screen.
+
+var = 10
+
+def my_func(x):
+    print(x * var)
+
+my_func(100)
 
 
 
