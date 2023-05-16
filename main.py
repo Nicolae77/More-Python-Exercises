@@ -1548,6 +1548,17 @@ result = my_func(5, 10, 20, 30, 50)
 print(result)
 
 
+#  Exercise nr.185
+# Implement a function called my_func() that takes a positional parameter x and a variable-length dictionary of (keyword) parameters and returns the result of multiplying x with the largest value in the dictionary, also returning the result when the function is called.
+def my_func(x, **kwargs):
+    print(x)
+    print(sorted(kwargs.values())[-1])
+    return x * sorted(kwargs.values())[-1]
+    
+
+result = my_func(10, val1 = 10, val2 = 15, val3 = 20, val4 = 25, val5 = 30)
+print(result)
+
 
 
 
