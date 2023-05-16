@@ -1560,6 +1560,15 @@ result = my_func(10, val1 = 10, val2 = 15, val3 = 20, val4 = 25, val5 = 30)
 print(result)
 
 
+#  Exercise nr.186
+# Add the correct line(s) of code inside the function in order to get 100 as a result of calling my_func() and have the result printed out to the screen.
+var = 5
+
+def my_func(x):
+    print(x * var)
+	
+	
+my_func(20)
 
 
 
