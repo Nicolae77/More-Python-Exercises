@@ -1593,6 +1593,16 @@ def my_func(x):
 my_func(10)
 
 
+#  Exercise nr.189
+# Add the necessary line of code inside the function in order to get 30 as a result of calling my_func() and have the result printed out to the screen.
+var = 3
+
+def my_func(x):
+    global var
+    print(x * var)
+    var = 12
+	
+my_func(10)
 
 
 
