@@ -1613,9 +1613,17 @@ print("%.4f" % pi)
 
 
 # ********************************* FILES  *****************************
-
+ 
+#  Exercise nr.191
+# Add the necessary code in between print's parentheses in order to read the content of test.txt as a string and have the result printed out to the screen.
 f = open("test.txt", "r")
 print(f.read())
+
+
+#  Exercise nr.192
+# Add the necessary code in between print's parentheses in order to read the content of test.txt as a list where each element of the list is a row in the file, and have the result printed out to the screen.
+f = open("test.txt", "r")
+print(f.readlines())
 
 
 
