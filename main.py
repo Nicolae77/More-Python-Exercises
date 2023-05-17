@@ -1655,7 +1655,23 @@ f.read(5)
 print(f.mode)
 
 
+#  Exercise nr.196
+# Add the necessary file access mode on line 1 in order to open test.txt for appending and reading at the same time.
+f = open("test.txt", "a+")
 
+print(f.mode)
+
+
+#  Exercise nr.197
+# Add the necessary code on lines 3 and 4 in order to write the string python to test.txt and have the result of reading the file printed out to the screen.
+f = open("test.txt", "w")
+
+f.write("Programming Languages")
+f.close()
+
+f = open("test.txt", "r")
+
+print(f.read())
 
 
 
