@@ -1646,6 +1646,13 @@ f.read(5)
 print(f.tell())
 
 
+#  Exercise nr.195
+# Add the necessary code on line 5 (in between the parentheses of print()) in order to get the current mode in which test.txt is open (read, write etc.) and have the result printed out to the screen.
+f = open("test.txt", "r")
+
+f.read(5)
+
+print(f.mode)
 
 
 
