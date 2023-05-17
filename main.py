@@ -1697,6 +1697,17 @@ f = open("test.txt", "r")
 print(f.read())
 
 
+#  Exercise nr.200
+# Add the necessary code on lines 4 and 5 in order to delete the entire content of test.txt.
+with open("test.txt", "w") as f:
+    f.write("python")
+
+f = open("test.txt", "r+")
+f.truncate()
+f = open("test.txt", "r")
+
+print(f.read())
+
 
 
 
