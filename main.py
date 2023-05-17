@@ -1682,11 +1682,19 @@ f = open("test.txt", "w")
 f.writelines(['python',' ','and', ' ','java'])
 f.close()
 
-
 f = open("test.txt", "r")
 
 print(f.read())
 
+
+#  Exercise nr.199
+# Add the necessary code starting at line 1 in order to write the string python and also close test.txt properly using the with statement.
+with open("test.txt", "w") as f:
+    f.write("python")
+
+f = open("test.txt", "r")
+
+print(f.read())
 
 
 
