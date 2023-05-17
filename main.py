@@ -1626,6 +1626,24 @@ f = open("test.txt", "r")
 print(f.readlines())
 
 
+#  Exercise nr.193
+# Add the necessary code on line 5 in order to bring back the cursor at the very beginning of test.txt before reading from the file once again.
+f = open("test.txt", "r")
+
+f.read()
+
+f.seek(0)
+
+print(f.read())
+
+
+#  Exercise nr.194
+# Add the necessary code on line 5 (in between the parentheses of print()) in order to get the current position of the cursor inside test.txt and have the result printed out to the screen.
+f = open("test.txt", "r")
+
+f.read(5)
+
+print(f.tell())
 
 
 
