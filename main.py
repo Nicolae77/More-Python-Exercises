@@ -1675,6 +1675,19 @@ print(f.read())
 
 
 
+#  Exercise nr.198
+# Add the necessary code on lines 3 and 4 in order to write a list of strings ['python', ' ', 'and', ' ', 'java'] to test.txt and have the result of reading the file printed out to the screen.
+f = open("test.txt", "w")
+
+f.writelines(['python',' ','and', ' ','java'])
+f.close()
+
+
+f = open("test.txt", "r")
+
+print(f.read())
+
+
 
 
 
