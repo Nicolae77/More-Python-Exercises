@@ -1709,6 +1709,17 @@ f = open("test.txt", "r")
 print(f.read())
 
 
+# ******************************************* Regular Expressions ***********
+#  Exercise nr.201
+# Write the code in order to match the word Python at the beginning of the string using the match() method.
+import re
+
+ex = "Python is a high-level, general-purpose programming language."
+print("Regular expression")
+result = re.match("Python", ex)
+print(result.group())
+
+
 
 
 
