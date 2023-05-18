@@ -1720,6 +1720,16 @@ result = re.match("Python", ex)
 print(result.group())
 
 
+#  Exercise nr.202
+# Write the code  in order to match the word Django at the beginning of the string using the match() method and ignoring the case. This way, no matter if you have django or Django, the match is done either way.
+import re
+
+ex = "Django is a free and open-source, Python-based web framework that follows the model, template, views architectural pattern. "
+
+result = re.match("django", ex, re.I)
+
+print(result.group())
+
 
 
 
