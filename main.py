@@ -1731,6 +1731,18 @@ result = re.match("django", ex, re.I)
 print(result.group())
 
 
+#  Exercise nr.203
+# Write the code in order to match the words 'Python is a high-level' at the beginning of the string using the match() method. Use the dot (.) belonging to regex syntax in your solution.
+# import re
+
+ex = "Python is a high-level, general-purpose programming language."
+
+result = re.match(r"P.{5} .{2} .{12}", ex)
+print(re.match(r"P.{5}", ex))
+print(re.match(r"P.{5} .{2}", ex))
+print(re.match(r"P.{5} .{2} .{12}", ex))
+
+print(result.group())
 
 
 
