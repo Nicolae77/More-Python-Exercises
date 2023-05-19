@@ -1733,7 +1733,7 @@ print(result.group())
 
 #  Exercise nr.203
 # Write the code in order to match the words 'Python is a high-level' at the beginning of the string using the match() method. Use the dot (.) belonging to regex syntax in your solution.
-# import re
+import re
 
 ex = "Python is a high-level, general-purpose programming language."
 
@@ -1745,8 +1745,16 @@ print(re.match(r"P.{5} .{2} .{12}", ex))
 print(result.group())
 
 
+#  Exercise nr.204
+# Write the code in order to match the year 2020 in the string using the search() method. Use the \d in your solution.
+import re
 
+ex = "Python is a high-level for 2020 general-purpose programming language."
 
+result = re.search(r"(\d{4})\s", ex)
+print(re.search(r"(\d{4})\s", ex))
+
+print(result.group(1))
 
 
 
