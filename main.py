@@ -1810,6 +1810,17 @@ result = re.search(r"([A-Z]{4})", ex)
 print(result.group(1))
 
 
+#  Exercise nr.208
+# Write the code in order to match 'CSS 3' in the string using the search() method.
+import re
+
+s = "CSS 3 was very different from the other versions, fot instead of being a single monolithic specification, it was published as a set of separate documents known as modules."
+
+result = re.search(r"([A-Z]{3}\s[0-9]{1})", s)
+
+print(result.group(1))
+
+
 
 
 
