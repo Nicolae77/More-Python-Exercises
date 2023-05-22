@@ -1758,7 +1758,7 @@ print(result.group(1))
 
 
 #  Exercise nr.205
-# Write code on line 5 in order to match the year 2015 in the string using the search() method. Use the \d in your solution.
+# Write the code in order to match the year 2015 in the string using the search() method. Use the \d in your solution.
 import re
 
 ex = "Python is a high-level for 2020 general-purpose programming language. In 2015, Django became the most popular frame work"
@@ -1769,7 +1769,7 @@ print(result.group(1))
 
 
 #  Exercise nr.206
-# Write code on in order to match the date '20 February 1991' in the string using the search() method. Use the \d in your solution.
+# Write the code in order to match the date '20 February 1991' in the string using the search() method. Use the \d in your solution.
 import re
 
 ex = "Python appeared in Feb 20th 1991 and Developers like it to much."
@@ -1798,10 +1798,16 @@ print(ex.index('F'))
 print(result.group(1))
 
 
+#  Exercise nr.207
+# Write the code in order to match 'HTML' in the string using the search() method.
 
+import re
 
+ex = "Python appeared in Feb 20th 1991 and Developers like it to much. In 1989, the HTML was released."
 
+result = re.search(r"([A-Z]{4})", ex)
 
+print(result.group(1))
 
 
 
