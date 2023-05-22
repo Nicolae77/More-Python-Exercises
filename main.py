@@ -1768,6 +1768,34 @@ print(re.search(r"(\d{4}),", ex))
 print(result.group(1))
 
 
+#  Exercise nr.206
+# Write code on in order to match the date '20 February 1991' in the string using the search() method. Use the \d in your solution.
+import re
+
+ex = "Python appeared in Feb 20th 1991 and Developers like it to much."
+# \d
+# Matches any decimal digit; this is equivalent to the class [0-9].
+
+# \D
+# Matches any non-digit character; this is equivalent to the class [^0-9].
+
+# \s
+# Matches any whitespace character; this is equivalent to the class [ \t\n\r\f\v].
+
+# \S
+# Matches any non-whitespace character; this is equivalent to the class [^ \t\n\r\f\v].
+
+# \w
+# Matches any alphanumeric character; this is equivalent to the class [a-zA-Z0-9_].
+
+# \W
+# Matches any non-alphanumeric character; this is equivalent to the class [^a-zA-Z0-9_]. 
+result = re.search(r"(.{3}\s\d\d\w\w\s\d{4})\s", ex)
+print(result)
+print(len(ex))
+print(ex[19])
+print(ex.index('F'))
+print(result.group(1))
 
 
 
