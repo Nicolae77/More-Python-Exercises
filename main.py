@@ -1746,7 +1746,7 @@ print(result.group())
 
 
 #  Exercise nr.204
-# Write the code in order to match the year 2020 in the string using the search() method. Use the \d in your solution.
+# Write the code in order to match the year 2020 in the string using the search() method. Use the \d and \s in your solution.
 import re
 
 ex = "Python is a high-level for 2020 general-purpose programming language."
@@ -1754,6 +1754,17 @@ ex = "Python is a high-level for 2020 general-purpose programming language."
 result = re.search(r"(\d{4})\s", ex)
 print(re.search(r"(\d{4})\s", ex))
 
+print(result.group(1))
+
+
+#  Exercise nr.205
+# Write code on line 5 in order to match the year 2015 in the string using the search() method. Use the \d in your solution.
+import re
+
+ex = "Python is a high-level for 2020 general-purpose programming language. In 2015, Django became the most popular frame work"
+
+result = re.search(r"(\d{4}),", ex)
+print(re.search(r"(\d{4}),", ex))
 print(result.group(1))
 
 
