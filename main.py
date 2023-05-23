@@ -1814,13 +1814,23 @@ print(result.group(1))
 # Write the code in order to match 'CSS 3' in the string using the search() method.
 import re
 
-s = "CSS 3 was very different from the other versions, fot instead of being a single monolithic specification, it was published as a set of separate documents known as modules."
+ex = "CSS 3 was very different from the other versions, fot instead of being a single monolithic specification, it was published as a set of separate documents known as modules."
 
-result = re.search(r"([A-Z]{3}\s[0-9]{1})", s)
+result = re.search(r"([A-Z]{3}\s[0-9]{1})", ex)
 
 print(result.group(1))
 
 
+#  Exercise nr.209
+# Write code on line 5 in order to match £75000 in the string using the search() method.
+import re
+
+ex = "According to our salary calculator, the average annual salary for Python Developers working in London is £75000, per year."
+
+result = re.search(r"(\£\d{5}),", ex)
+print(result)
+
+print(result.group(1))
 
 
 
