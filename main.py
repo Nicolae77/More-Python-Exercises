@@ -1822,7 +1822,7 @@ print(result.group(1))
 
 
 #  Exercise nr.209
-# Write code on line 5 in order to match £75000 in the string using the search() method.
+# Write the code in order to match £75000 in the string using the search() method.
 import re
 
 ex = "According to our salary calculator, the average annual salary for Python Developers working in London is £75000, per year."
@@ -1833,6 +1833,16 @@ print(result)
 print(result.group(1))
 
 
+#  Exercise nr.210
+# Write the code in order to match $300B in the string using the search() method.
+import re
+
+ex = "In 2017, the price of 1 BTC reached $20000, with a market cap of over $300B."
+
+result = re.search(r"(\$\d{3}[A-Z])\.", ex)
+print(result)
+
+print(result.group(1))
 
 
 
