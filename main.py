@@ -1856,5 +1856,18 @@ result = re.search(r"\s(.{2} .{3} .{6})\s", ex)
 print(result.group(1))
 
 
+#  Exercise nr.212
+# Write code on line 5 in order to match 184,073,529,068 in the string using the search() method.
+import re
+
+ex = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 17,942,600 BTC, Change 24h: 0.10%"
+
+result = re.search(r"\$(\d{3},[0-9]{3},\d{3},[0-9]{3}),", ex)
+print(re.search(r"\$(\d{3}),", ex))
+print(re.search(r"\$(\d{3},[0-9]{3}),", ex))
+print(re.search(r"\$(\d{3},[0-9]{3},\d{3}),", ex))
+print(re.search(r"\$(\d{3},[0-9]{3},\d{3},[0-9]{3}),", ex))
+print(result.group(1))
+
 
 
