@@ -1845,6 +1845,15 @@ print(result)
 print(result.group(1))
 
 
+#  Exercise nr.211
+# Write the code on in order to match 'to our salary' in the string using the search() method.
+import re
+
+ex = "According to our salary calculator, the average annual salary for Python Developers working in London is £75000, per year."
+
+result = re.search(r"\s(.{2} .{3} .{6})\s", ex)
+
+print(result.group(1))
 
 
 
