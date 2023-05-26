@@ -1874,9 +1874,20 @@ print(result.group(1))
 # Write code on line 5 in order to match 10,259.02 in the string using the search() method.
 import re
 
-s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 17,942,600 BTC, Change 24h: 0.10%"
+s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 18,945,800 BTC, Change 24h: 0.10%"
 
 result = re.search(r"\$(\d{1,3},\d{1,3}\.\d{1,3}),", s)
 
 print(result.group(1))
 
+
+#  Exercise nr.214
+# Write code on line 5 in order to match 17,942,600 BTC in the string using the search() method.
+import re
+
+s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 18,945,800 BTC, Change 24h: 0.10%"
+
+result = re.search(r"\s([0-9]{2},[0-9]{3},[0-9]{3}\s.{3}),", s)
+
+
+print(result.group(1))
