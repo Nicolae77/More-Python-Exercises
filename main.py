@@ -1938,7 +1938,7 @@ print(result.group(1))
 
 
 #  Exercise nr.219
-# Write code on line 5 in order to match all the years in the string using the findall() method.
+# Write the code in order to match all the years in the string using the findall() method.
 import re
 
 s = "Bitcoin was born on Jan 3rd 2009 as an alternative to the failure of the current financial system. In 2017, the price of 1 BTC reached $20000, with a market cap of over $300B."
@@ -1948,7 +1948,16 @@ result = re.findall(r"\s(\d{4})", s)
 print(result)
 
 
+#  Exercise nr.220
+# Write the code in order to match all the numbers (3, 2009, 2017 etc.) in the string using the findall() method.
 
+import re
+
+s = "Bitcoin was born on Jan 3rd 2009 as an alternative to the failure of the current financial system. In 2017, the price of 1 BTC reached $20000, with a market cap of over $300B."
+
+result = re.findall(r"\d{1,}", s)
+
+print(result)
 
 
 
