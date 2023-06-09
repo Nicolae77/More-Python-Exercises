@@ -1846,7 +1846,7 @@ print(result.group(1))
 
 
 #  Exercise nr.211
-# Write the code on in order to match 'to our salary' in the string using the search() method.
+# Write the code in order to match 'to our salary' in the string using the search() method.
 import re
 
 ex = "According to our salary calculator, the average annual salary for Python Developers working in London is £75000, per year."
@@ -1857,7 +1857,7 @@ print(result.group(1))
 
 
 #  Exercise nr.212
-# Write code on line 5 in order to match 184,073,529,068 in the string using the search() method.
+# Write the code in order to match 184,073,529,068 in the string using the search() method.
 import re
 
 ex = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 17,942,600 BTC, Change 24h: 0.10%"
@@ -1871,7 +1871,7 @@ print(result.group(1))
 
 
 #  Exercise nr.213
-# Write code on line 5 in order to match 10,259.02 in the string using the search() method.
+# Write the code in order to match 10,259.02 in the string using the search() method.
 import re
 
 s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 18,945,800 BTC, Change 24h: 0.10%"
@@ -1882,7 +1882,7 @@ print(result.group(1))
 
 
 #  Exercise nr.214
-# Write code on line 5 in order to match 17,942,600 BTC in the string using the search() method.
+# Write the code in order to match 17,942,600 BTC in the string using the search() method.
 import re
 
 s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 18,945,800 BTC, Change 24h: 0.10%"
@@ -1894,7 +1894,7 @@ print(result.group(1))
 
 
 #  Exercise nr.215
-# Write code on line 5 in order to match 24h: 0.10% in the string using the search() method.
+# Write the code in order to match 24h: 0.10% in the string using the search() method.
 import re
 
 s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 17,942,600 BTC, Change 24h: 0.10%"
@@ -1905,7 +1905,7 @@ print(result.group(1))
 
 
 #  Exercise nr.216
-# Write code on line 5 in order to match Volume 24h: $15,670,986,269 in the string using the search() method.
+# Write the code in order to match Volume 24h: $15,670,986,269 in the string using the search() method.
 import re
 
 s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 17,942,600 BTC, Change 24h: 0.10%"
@@ -1913,3 +1913,34 @@ s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,6
 result = re.search(r"\.\d\d, (.{1,}:\s\$\d{2,},\d{2,},\d{2,},\d{2,}), ", s)
 
 print(result.group(1))
+
+
+#  Exercise nr.217
+# Write the code in order to match Circulating Supply: 17,942,600 BTC in the string using the search() method.
+import re
+
+s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 17,942,600 BTC, Change 24h: 0.10%"
+
+result = re.search(r"(\w+ \w+: \d{2}.+? [A-Z]{3}), ", s)
+
+print(result.group(1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
