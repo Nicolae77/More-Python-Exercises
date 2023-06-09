@@ -1926,6 +1926,16 @@ result = re.search(r"(\w+ \w+: \d{2}.+? [A-Z]{3}), ", s)
 print(result.group(1))
 
 
+#  Exercise nr.218
+# Write code on line 5 in order to match 259.02, V in the string using the search() method.
+import re
+
+s = "Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 17,942,600 BTC, Change 24h: 0.10%"
+
+result = re.search(r",([0-9]{3}\.[0-9]{2},\s.)", s)
+
+print(result.group(1))
+
 
 
 
