@@ -1985,6 +1985,26 @@ result = re.findall(r"([A-Z]{1}.+?)\s", s)
 print(result)
 
 
+#  Exercise nr.223
+# Write the code on in order to match all the two-letter words starting with the letter o in the string using the findall() method.
+
+import re
+
+s = "Bitcoin was born on Jan 3rd 2009 as an alternative to the failure of the current financial system. In 2017, the price of 1 BTC reached $20000, with a market cap of over $300B."
+
+result = re.findall(r"\s(o.{1})\s", s)
+
+print(result)
+
+
+
+
+
+
+
+
+
+
 
 
 
