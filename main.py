@@ -1960,9 +1960,16 @@ result = re.findall(r"\d{1,}", s)
 print(result)
 
 
+#  Exercise nr.221
+# Write the code in order to match all the three-letter words in the string using the findall() method.
 
+import re
 
+s = "Bitcoin was born on Jan 3rd 2009 as an alternative to the failure of the current financial system. In 2017, the price of 1 BTC reached $20000, with a market cap of over $300B."
 
+result = re.findall(r"\s(\w{3})\s", s)
+
+print(result)
 
 
 
