@@ -2007,6 +2007,9 @@ result = re.findall(r"\w{8,}", s)
 print(result)
 
 
+#  Exercise nr.225
+# 
+
 
 
 
