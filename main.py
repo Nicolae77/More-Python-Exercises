@@ -2008,11 +2008,26 @@ print(result)
 
 
 #  Exercise nr.225
-# 
+# Write the code in order to match all the words starting with a or c and that have at least 3 letters in the string using the findall() method.
+import re
+
+s = "Bitcoin was born on Jan 3rd 2009 as an alternative to the failure of the current financial system. In 2017, the price of 1 BTC reached $20000, with a market cap of over $300B."
+
+result = re.findall(r"\s([ac]\w{2,})\s", s)
+
+print(result)
 
 
+#  Exercise nr.226
+# Write the code in order to replace all the years in the string with XXXX using the sub() method.
 
+import re
 
+s = "Bitcoin was born on Jan 3rd 2009 as an alternative to the failure of the current financial system. In 2017, the price of 1 BTC reached $20000, with a market cap of over $300B. Bitcoin, Market Cap: $184,073,529,068, Price: $10,259.02, Volume 24h: $15,670,986,269, Circulating Supply: 17,942,600 BTC, Change 24h: 0.10%"
+
+result = re.sub(r"\s\d{4}", " XXXX", s) 
+
+print(result)
 
 
 
