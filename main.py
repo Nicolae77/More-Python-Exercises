@@ -2080,6 +2080,11 @@ print(result)
 
 # ********************************  CLASSES  ****************************
 # Exercise nr.231
+#Write a class called ClassOne starting on line 1 containing:
+
+#T he __init__ method with two parameters p1 and p2. Define the corresponding attributes inside the __init__ method.
+
+# A method called square that takes one parameter p3 and prints out the value of p3 squared.
 class ClassOne(object):
     def __init__(self, p1, p2):
         self.p1 = p1
@@ -2092,6 +2097,34 @@ p = ClassOne(1, 2)
 print(type(p))
 
 
+# Exercise nr.232
+# Considering the ClassOne class and the p object, write code in order to access the p1 attribute for the current instance of the class and print its value to the screen.
+class ClassOne(object):
+    def __init__(self, p1, p2):
+        self.p1 = p1
+        self.p2 = p2
+    
+    def square(self, p3):
+        print(p3 ** 2)
+
+p = ClassOne(1, 2)
+
+print(p.p1)
+
+
+# Exercise nr.233
+# Considering the ClassOne class and the p object, write code in order to call the square() method for the current instance of the class using 10 as an argument and print the result to the screen.
+class ClassOne(object):
+    def __init__(self, p1, p2):
+        self.p1 = p1
+        self.p2 = p2
+    
+    def square(self, p3):
+        print(p3 ** 2)
+
+p = ClassOne(1, 2)
+
+p.square(10)
 
 
 
