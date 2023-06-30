@@ -2110,6 +2110,7 @@ class ClassOne(object):
 p = ClassOne(1, 2)
 
 print(p.p1)
+print(p.p2)
 
 
 # Exercise nr.233
@@ -2196,9 +2197,24 @@ p = ClassOne(1, 2)
 print(isinstance(p, ClassOne))
 
 
+# Exercise nr.238
+# Considering the ClassOne class, write code to create a child class called ClassTwo that inherits from ClassOne and also has its own method called times10() that takes a single parameter x and prints out the result of multiplying x by 10.
+
+class ClassOne(object):
+    def __init__(self, p1, p2):
+        self.p1 = p1
+        self.p2 = p2
+    
+    def square(self, p3):
+        print(p3 ** 2)
+
+class ClassTwo(ClassOne):
+    def times10(self, x):
+        print(x * 10)
 
 
-
+y = ClassTwo(10, 20)
+print(y.p1)
 
 
 
