@@ -2217,7 +2217,23 @@ y = ClassTwo(10, 20)
 print(y.p1)
 
 
+# Exercise nr.239
+# Considering the ClassOne and ClassTwo classes, where the latter is a child of the former, write code in order to call the times10() method from the child class having x equal to 45, also printing the result to the screen.
+class ClassOne(object):
+    def __init__(self, p1, p2):
+        self.p1 = p1
+        self.p2 = p2
+    
+    def square(self, p3):
+        print(p3 ** 2)
 
-
+class ClassTwo(ClassOne):
+    def times10(self, x):
+        return x * 10
+        
+obj = ClassTwo(15, 25)
+print(obj.p1)
+print(obj.p2)
+print(obj.times10(45))
 
 
